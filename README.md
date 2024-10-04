@@ -38,7 +38,7 @@ Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
 3. Navegue até a pasta criada
 
 ```bash
-cd caryy-cli
+cd carry-cli
 ```
 
 4. execute o seguinte comando e espere terminar a instalação dos pacotes:
