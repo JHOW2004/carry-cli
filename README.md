@@ -35,13 +35,25 @@ Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
    git clone https://github.com/JHOW2004/carry-cli.git
    ```
 
-3. caso você esteja em um Mac ou alguma distribuição Linux, execute este comando (caso não, ignore este passo):
+3. Navegue até a pasta criada
+
+```bash
+cd caryy-cli
+```
+
+4. execute o seguinte comando e espere terminar a instalação dos pacotes:
+
+```bash
+npm install
+```
+
+5. caso você esteja em um Mac ou alguma distribuição Linux, execute este comando (caso não, ignore este passo):
 
 ```bash
 chmod +x bin/carry.js
 ```
 
-4. E para poder usar globalmente este pacote execute este comando:
+6. E para poder usar globalmente este pacote execute este comando:
 
 ```bash
 npm install -g .

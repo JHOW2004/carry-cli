@@ -6,9 +6,6 @@
     "bin": {
       "carry": "bin/carry.js"
     },
-    "scripts": {
-      "postinstall": "node bin/carry.js"
-    },
     "dependencies": {
       "axios": "^0.21.1"
     },
