@@ -63,7 +63,7 @@ Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
     npm install -g .
     ```
 
-Isso tornará o comando `carry` disponível globalmente no terminal e pronto para usar.
+Isso tornará o comando `carry` disponível globalmente no terminal e pronto para uso.
 
 ## Como Usar
 
@@ -73,9 +73,9 @@ Após a instalação, você pode utilizar a CLI executando o comando `carry` seg
 
 Use o seguinte formato para interagir com o Carry:
 
-    ```bash
-    carry "Sua pergunta aqui"
-    ```
+```bash
+carry "Sua pergunta aqui"
+```
 
 ### Parâmetros
 
@@ -85,40 +85,55 @@ Use o seguinte formato para interagir com o Carry:
 
 Aqui está um exemplo de como usar o **Carry CLI** para fazer uma pergunta simples:
 
-    ```bash
-    carry "Quem é seu criador?"
-    ```
+```bash
+carry "Quem é seu criador?"
+```
 
 ### Saída Esperada
 
 A resposta será algo como:
 
-    ```bash
-    Resposta da Carry: "Meu criador é Jonathas Pereira Gonçalves, CEO e CTO da Jhow Technology, criador da ferramenta Note Speech..."
-    ```
+```bash
+Resposta da Carry: "Meu criador é Jonathas Pereira Gonçalves, CEO e CTO da Jhow Technology, criador da ferramenta Note Speech..."
+```
 
 ## Exemplos
 
 ### 2. Perguntando sobre o nome
 
-    ```bash
-    carry "Qual é o seu nome?"
-    ```
+```bash
+carry "Qual é o seu nome?"
+```
 
 Resposta esperada:
 
-    ```bash
-    Carry: "Meu nome é Carry."
-    ```
+```bash
+Carry: "Meu nome é Carry."
+```
 
 ## Contribuição
 
 Se você quiser contribuir para o **Carry CLI**, siga os passos abaixo:
 
 1. Faça um fork deste repositório.
-2. Crie uma nova branch com sua feature: `git checkout -b minha-feature`.
-3. Faça commit das suas alterações: `git commit -m 'Adiciona nova feature'`.
-4. Faça push para a branch: `git push origin minha-feature`.
+2. Crie uma nova branch com sua feature: 
+
+    ```bash
+    git checkout -b minha-feature
+    ```
+
+3. Faça commit das suas alterações: 
+
+    ```bash
+    git commit -m 'Adiciona nova feature'
+    ```
+
+4. Faça push para a branch: 
+
+    ```bash
+    git push origin minha-feature
+    ```
+
 5. Abra um pull request.
 
 ## Licença
