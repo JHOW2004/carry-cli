@@ -1,32 +1,6 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
 const { sendMessageToAPI } = require('../src/apiClient');
-
-// Função para checar se estamos rodando como administrador
-function isAdmin() {
-  try {
-    if (process.platform === 'win32') {
-      execSync('fltmc'); // Comando para verificar privilégios de administrador no Windows
-    } else {
-      execSync('sudo -n true'); // Testa o sudo no Linux/macOS
-    }
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-
-// Se não for admin, tentar solicitar elevação de privilégios
-if (!isAdmin()) {
-  console.log('Este comando requer permissões de administrador.');
-  if (process.platform === 'win32') {
-    execSync('runas /user:Administrator "node bin/carry.js"');
-  } else {
-    execSync('sudo node bin/carry.js');
-  }
-  process.exit(0);
-}
 
 // Captura os argumentos do terminal
 const args = process.argv.slice(2);
