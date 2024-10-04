@@ -4,8 +4,7 @@
     "description": "CLI para fazer perguntas para a API Carry",
     "main": "src/apiClient.js",
     "bin": {
-      "carry": "bin/carry.js",
-      "carry-config": "bin/config.js"
+      "carry": "bin/carry.js"
     },
     "scripts": {
       "postinstall": "node bin/carry.js"

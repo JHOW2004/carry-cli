@@ -16,6 +16,7 @@
 
 - Node.js (versão 14 ou superior)
 - npm (gerenciador de pacotes do Node.js)
+- git (Para clonagem de repositorio)
 
 ### Instalação Global
 
@@ -28,13 +29,25 @@ Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
    npm -v
    ```
 
-2. Instale o **Carry CLI** globalmente com o seguinte comando:
+2. clone este repositorio com o seguinte comando:
 
    ```bash
-   npm install -g carry-cli
+   git clone https://github.com/JHOW2004/carry-cli.git
    ```
 
-Isso tornará o comando `carry` disponível globalmente no terminal.
+3. caso você esteja em um Mac ou alguma distribuição Linux, execute este comando (caso não, ignore este passo):
+
+```bash
+chmod +x bin/carry.js
+```
+
+4. E para poder usar globalmente este pacote execute este comando:
+
+```bash
+npm install -g .
+```
+
+Isso tornará o comando `carry` disponível globalmente no terminal e pronto para usar.
 
 ## Como Usar
 
@@ -70,7 +83,6 @@ Resposta da Carry: "Meu criador é Jonathas Pereira Gonçalves, CEO e CTO da Jho
 
 ## Exemplos
 
-
 ### 2. Perguntando sobre o nome
 
 ```bash
@@ -82,7 +94,6 @@ Resposta esperada:
 ```bash
 Resposta da Carry: "Meu nome é Carry."
 ```
-
 
 ## Contribuição
 
