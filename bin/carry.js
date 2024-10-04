@@ -45,7 +45,7 @@ const question = args.join(' ');
 sendMessageToAPI(question)
   .then((response) => {
     if (response) {
-      console.log("Resposta da Carry:", response);
+      console.log("Carry:", response);
     } else {
       console.log("Erro: Não foi possível obter uma resposta da API.");
     }
