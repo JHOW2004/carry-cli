@@ -1,9 +1,9 @@
-const axios = require('axios');
+import axios from 'axios';  // Altere o require para import
 
-async function sendMessageToAPI(question) {
+export default async function sendMessageToAPI(question) {
   try {
     const response = await axios.post('https://servidor-carry-cli.vercel.app/', {
-      message: question
+      message: question,
     });
 
     return response.data.message;
@@ -12,5 +12,3 @@ async function sendMessageToAPI(question) {
     return null;
   }
 }
-
-module.exports = { sendMessageToAPI };

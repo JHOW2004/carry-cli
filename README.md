@@ -24,40 +24,40 @@ Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
 
 1. Primeiro, você precisa ter o Node.js e npm instalados no seu computador. Verifique se já possui rodando:
 
-   ```bash
-   node -v
-   npm -v
-   ```
+    ```bash
+    node -v
+    npm -v
+    ```
 
 2. clone este repositorio com o seguinte comando:
 
-   ```bash
-   git clone https://github.com/JHOW2004/carry-cli.git
-   ```
+    ```bash
+    git clone https://github.com/JHOW2004/carry-cli.git
+    ```
 
 3. Navegue até a pasta criada
 
-```bash
-cd carry-cli
-```
+    ```bash
+    cd carry-cli
+    ```
 
 4. execute o seguinte comando e espere terminar a instalação dos pacotes:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 5. caso você esteja em um Mac ou alguma distribuição Linux, execute este comando (caso não, ignore este passo):
 
-```bash
-chmod +x bin/carry.js
-```
+    ```bash
+    chmod +x bin/carry.js
+    ```
 
 6. E para poder usar globalmente este pacote execute este comando:
 
-```bash
-npm install -g .
-```
+    ```bash
+    npm install -g .
+    ```
 
 Isso tornará o comando `carry` disponível globalmente no terminal e pronto para usar.
 
@@ -69,9 +69,9 @@ Após a instalação, você pode utilizar a CLI executando o comando `carry` seg
 
 Use o seguinte formato para interagir com a Carry:
 
-```bash
-carry "Sua pergunta aqui"
-```
+    ```bash
+    carry "Sua pergunta aqui"
+    ```
 
 ### Parâmetros
 
@@ -81,31 +81,31 @@ carry "Sua pergunta aqui"
 
 Aqui está um exemplo de como usar o **Carry CLI** para fazer uma pergunta simples:
 
-```bash
-carry "Quem é seu criador?"
-```
+    ```bash
+    carry "Quem é seu criador?"
+    ```
 
 ### Saída Esperada
 
 A resposta será algo como:
 
-```bash
-Resposta da Carry: "Meu criador é Jonathas Pereira Gonçalves, CEO e CTO da Jhow Technology, criador da ferramenta Note Speech..."
-```
+    ```bash
+    Resposta da Carry: "Meu criador é Jonathas Pereira Gonçalves, CEO e CTO da Jhow Technology, criador da ferramenta Note Speech..."
+    ```
 
 ## Exemplos
 
 ### 2. Perguntando sobre o nome
 
-```bash
-carry "Qual é o seu nome?"
-```
+    ```bash
+    carry "Qual é o seu nome?"
+    ```
 
 Resposta esperada:
 
-```bash
-Resposta da Carry: "Meu nome é Carry."
-```
+    ```bash
+    Carry: "Meu nome é Carry."
+    ```
 
 ## Contribuição
 
