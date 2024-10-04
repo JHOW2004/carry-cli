@@ -1,0 +1,19 @@
+{
+    "name": "carry-br-cli",
+    "version": "5.0.1",
+    "description": "CLI para fazer perguntas para a API Carry",
+    "main": "src/apiClient.js",
+    "bin": {
+      "carry": "bin/carry.js",
+      "carry-config": "bin/config.js"
+    },
+    "scripts": {
+      "postinstall": "node bin/carry.js"
+    },
+    "dependencies": {
+      "axios": "^0.21.1"
+    },
+    "author": "Jonathas P. Gonçalves",
+    "license": "ISC"
+  }
+  
