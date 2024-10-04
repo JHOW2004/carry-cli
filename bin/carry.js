@@ -15,8 +15,8 @@ const args = process.argv.slice(2);
 
 // Verifica se o usuário passou uma pergunta válida
 if (args.length === 0) {
-  console.error(chalk.red('*Erro:* Você deve fornecer uma pergunta entre aspas.'));
-  console.log(chalk.blue('*Uso:* carry "sua pergunta aqui"'));
+  console.error(chalk.red('Erro: Você deve fornecer uma pergunta entre aspas.'));
+  console.log(chalk.blue('Uso: carry "sua pergunta aqui"'));
   process.exit(1);
 }
 
@@ -31,10 +31,10 @@ sendMessageToAPI(question)
       const formattedResponse = marked.marked(response);
       console.log('Carry:' + chalk.green(formattedResponse));
     } else {
-      console.log(chalk.red('*Erro:* Não foi possível obter uma resposta da API.'));
+      console.log(chalk.red('Erro: Não foi possível obter uma resposta da API.'));
     }
   })
   .catch((err) => {
-    console.error(chalk.red('*Erro ao se comunicar com a API:*') + err.message);
+    console.error(chalk.red('Erro ao se comunicar com a API:') + err.message);
     process.exit(1);
   });

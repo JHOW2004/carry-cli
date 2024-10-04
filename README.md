@@ -1,6 +1,10 @@
 # Carry CLI
 
-**Carry CLI** é uma interface de linha de comando (CLI) que permite que você faça perguntas diretamente ao **Carry** pelo CMD. A ferramenta foi desenvolvida para facilitar o uso sem a necessidade de uma interface
+**Carry CLI** é uma interface de linha de comando (CLI) que permite que você faça perguntas diretamente ao **Carry** pelo CMD. A ferramenta foi desenvolvida para facilitar o uso sem a necessidade de uma interface gráfica.
+
+Caso queira usar o Carry em seu potencial máximo, acesse:
+
+https://carrybr.vercel.app/
 
 ## Índice
 
@@ -16,44 +20,44 @@
 
 - Node.js (versão 14 ou superior)
 - npm (gerenciador de pacotes do Node.js)
-- git (Para clonagem de repositorio)
+- git (para clonagem do repositório)
 
 ### Instalação Global
 
 Para instalar o **Carry CLI** globalmente no seu sistema, siga os passos abaixo:
 
-1. Primeiro, você precisa ter o Node.js e npm instalados no seu computador. Verifique se já possui rodando:
+1. Primeiro, você precisa ter o Node.js e o npm instalados no seu computador. Verifique se já os possui rodando:
 
     ```bash
     node -v
     npm -v
     ```
 
-2. clone este repositorio com o seguinte comando:
+2. Clone este repositório com o seguinte comando:
 
     ```bash
     git clone https://github.com/JHOW2004/carry-cli.git
     ```
 
-3. Navegue até a pasta criada
+3. Navegue até a pasta criada:
 
     ```bash
     cd carry-cli
     ```
 
-4. execute o seguinte comando e espere terminar a instalação dos pacotes:
+4. Execute o seguinte comando e aguarde a instalação dos pacotes:
 
     ```bash
     npm install
     ```
 
-5. caso você esteja em um Mac ou alguma distribuição Linux, execute este comando (caso não, ignore este passo):
+5. Caso você esteja em um Mac ou em alguma distribuição Linux, execute este comando (se não, ignore este passo):
 
     ```bash
     chmod +x bin/carry.js
     ```
 
-6. E para poder usar globalmente este pacote execute este comando:
+6. Para poder usar este pacote globalmente, execute o seguinte comando:
 
     ```bash
     npm install -g .
@@ -63,11 +67,11 @@ Isso tornará o comando `carry` disponível globalmente no terminal e pronto par
 
 ## Como Usar
 
-Após a instalação, você pode utilizar a CLI executando o comando `carry` seguido da sua pergunta. A ferramenta irá enviar a pergunta para a API do chatbot e retornará a resposta diretamente no terminal.
+Após a instalação, você pode utilizar a CLI executando o comando `carry` seguido da sua pergunta. A ferramenta enviará a pergunta para a API do chatbot e retornará a resposta diretamente no terminal.
 
 ### Comando Básico
 
-Use o seguinte formato para interagir com a Carry:
+Use o seguinte formato para interagir com o Carry:
 
     ```bash
     carry "Sua pergunta aqui"
@@ -75,7 +79,7 @@ Use o seguinte formato para interagir com a Carry:
 
 ### Parâmetros
 
-- **Pergunta**: Você deve passar sua pergunta como um argumento de string, por isso certifique-se de colocar a pergunta entre aspas para garantir que ela seja capturada corretamente pelo terminal.
+- **Pergunta**: Você deve passar sua pergunta como um argumento em formato de string. Certifique-se de colocar a pergunta entre aspas para garantir que ela seja capturada corretamente pelo terminal.
 
 ### Exemplo:
 
